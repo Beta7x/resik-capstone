@@ -35,7 +35,12 @@ module.exports = {
         "main-green": "#15C89E",
         "mid-green": "#DFF6F1",
         "light-green": "#F2FFFC",
-        "main-yellow": "#FFC225"
+        "main-yellow": "#FFC225",
+        "resik-primary": "#47A359",
+        "resik-secondary": "#86CA94",
+        "resik-black": "#2F2F2F",
+        "resik-gray": "#959595",
+        "resik-base": "#EFF8F1"
       },
       backgroundcolors: {
         primary: "#3E82FC",

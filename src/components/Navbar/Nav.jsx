@@ -9,16 +9,16 @@ const Nav = () => {
   const mapLinks = () => {
     return NavLinks.map((link, i) => (
      
-      <li key={i} className="font-semibold  text-white hover:text-lightprimary">
+      <li key={i} className="font-semibold  text-white hover:text-resik-primary transition-all">
         {i < 4 &&  (<a href={link.link}>{link.name}</a>)}
       </li>
     ));
   };
 
   return (
-    <nav className="h-12 sticky top-0 flex justify-between bg-greenav md:px-24 shadow-md z-50">
+    <nav className="items-center h-16 sticky top-0 flex justify-between bg-resik-secondary md:px-24 shadow-md z-50">
       <Link to="/">
-        <img src={Logo} alt="logo" className="h-10 mt-1 cursor-pointer " />
+        <img src={Logo} alt="logo" className="h-11 cursor-pointer " />
       </Link>
       <ul className="md:flex hidden items-center gap-10">{mapLinks()}</ul>
       {/* Mobile Nav */}

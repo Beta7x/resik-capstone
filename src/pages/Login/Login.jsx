@@ -58,7 +58,7 @@ export const Login = () => {
         </div>
         <div className="bg-gray-100 flex flex-col justify-center">
           <form
-            className="max-w-[400px] w-full mx-auto bg-white p-4"
+            className="max-w-[400px] w-full shadow-lg rounded-lg mx-auto px-10 bg-white p-4"
             onSubmit={handleSubmit}
           >
             <img src={Logo} alt="logo" className="h-16 m-auto" />
@@ -86,16 +86,15 @@ export const Login = () => {
                 placeholder="Enter Password"
               />
             </div>
-            <button className="border w-full my-4 py-2 bg-lightprimary hover:bg-greenprimary text-white">
+            <button className="border w-full my-4 py-2 bg-resik-primary hover:bg-resik-secondary rounded-md text-white">
               Sign In
             </button>
             <div className="flex justify-between">
               <p className="flex items-center">
                 <input className="mr-2" type="checkbox" /> Remember Me
               </p>
-              <p className="text-center text-gray-400">Not a member?</p>
               <Link to="/register">
-                <span className="text-lightprimary">Sign up now</span>
+                <span className="text-resik-primary">Sign up now</span>
               </Link>
             </div>
           </form>

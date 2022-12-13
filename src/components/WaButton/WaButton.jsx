@@ -22,7 +22,7 @@ export const WaButton = () => {
         type="button"
         onClick={(event) =>
           window.open(
-            'https://wa.me/6287771613615?text=Hi%20Cikrak%20i%20want%20to%20ask.',
+            'https://wa.me/6281393677013?text=Hi%20ReSik%20i%20want%20to%20ask.',
             '_blank',
             'noopener, noreferrer'
           )

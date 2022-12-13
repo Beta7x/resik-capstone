@@ -13,7 +13,7 @@ const BlueButton = (props: ButtonProps) => {
       <button
         type={props.buttonType}
         onClick={props.onClick}
-        className="bg-main-blue hover:bg-greenprimary text-white text-sm font-bold py-2 px-4 rounded-full disabled:opacity-50 disabled:cursor-not-allowed disabled:transition-none disabled:transform-none"
+        className="bg-resik-primary hover:bg-resik-secondary text-white text-sm font-bold py-2 px-4 rounded-full disabled:opacity-50 disabled:cursor-not-allowed disabled:transition-none disabled:transform-none"
         disabled={props.disabled}
       >
         {props.btnText}

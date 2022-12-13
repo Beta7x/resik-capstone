@@ -47,11 +47,11 @@ const Profile = () => {
       <div className="flex">
         <ProfileSidebar />
         <div>
-          <div className="text-2xl font-bold mt-20 ml-16 pb-4 text-main-blue">
+          <div className="text-2xl font-bold mt-20 ml-16 pb-4 text-resik-primary">
             {edit && "Edit"} Profile
           </div>
           {edit && (
-            <p className="font-light text-main-blue ml-16 pb-1">
+            <p className="font-medium text-resik-secondary ml-16 pb-1">
               Select the fields you'd like to edit
             </p>
           )}

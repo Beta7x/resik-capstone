@@ -11,7 +11,7 @@ const initialState = {
     phone: '0811234566790',
     password: 'test',
     avatar:
-      'https://img.freepik.com/free-photo/asian-woman-posing-looking-camera_23-2148255359.jpg?t=st=1655398402~exp=1655399002~hmac=49552dd513a59881bd94e6dde197a76ecb808ce13543285ec2d1c9f4cd2d698c&w=740',
+      'https://res.cloudinary.com/beta7x/image/upload/v1669666803/my_profile.jpg',
     points: 9080,
   },
   isLoggedIn: false,

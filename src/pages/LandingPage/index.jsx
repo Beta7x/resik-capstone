@@ -2,7 +2,6 @@ import React, { useState, useRef } from "react";
 import { useSelector } from "react-redux";
 // components
 import ButtonFill from "../../components/ButtonFill/ButtonFill";
-import Companies from "../../components/Companies/Companies";
 import Review from "../../components/Review/Review";
 import Footer from "../../components/Footer/Footer";
 import { ScrollToTop } from "../../components/scroll";
@@ -67,12 +66,11 @@ const LandingPage = () => {
         </div>
         <p className="py-10 md:text-sm text-xs block text-gray-600 text-center">
           Don't hesitate to contact us for better waste management Information.
-          <span className="text-lightprimary font-semibold italic px-1">
-            KEEP NATURE WITH CIKRAK.
+          <span className="text-resik-primary font-semibold italic px-1">
+            KEEP NATURE WITH ReSik.
           </span>
         </p>
       </section>
-      <Companies />
       <Blog
         content={Contents[0]}
         ref={commentSection}

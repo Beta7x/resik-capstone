@@ -1,9 +1,9 @@
 import React from 'react';
-import registerImg from '../../assets/register.png';
+import registerImg from '../../assets/register2.png';
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { setRegister } from '../../redux/registerSlice';
-import Logo from '../../assets/logo2.png';
+import Logo from '../../assets/logo-resik2.png';
 import { Link ,useNavigate} from 'react-router-dom';
 
 export const Register = () => {
@@ -110,9 +110,9 @@ export const Register = () => {
         <div className="bg-gray-100 flex flex-col justify-center">
           <form
             onSubmit={handleSubmit}
-            className="max-w-[400px] w-full mx-auto bg-white p-4"
+            className="max-w-[400px] my-5 shadow-2xl rounded-lg px-10 w-full mx-auto bg-white p-4"
           >
-            <img src={Logo} alt="logo" className="h-16 ml-32" />
+            <img src={Logo} alt="logo" className="h-16 mx-auto" />
             <div className="flex flex-col py-2">
               <label>
                 Name<span className="text-red-600"> *</span>
@@ -203,7 +203,7 @@ export const Register = () => {
             </div>
             <button
               type="submit"
-              className="border w-full my-4 py-2 bg-lightprimary hover:bg-greenprimary text-white"
+              className="border w-full my-4 py-2 bg-resik-primary hover:bg-resik-secondary rounded-md text-white"
             >
               Register
             </button>
@@ -211,7 +211,7 @@ export const Register = () => {
               <p className="text-center mt-8 text-gray-400">
                 Already a member?{' '}
                 <Link to="/login">
-                  <span className="text-lightprimary">Sign In</span>
+                  <span className="text-resik-primary">Sign In</span>
                 </Link>
               </p>
             </div>

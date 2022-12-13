@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import NavLinks from "../../data/NavLinks";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo-resik2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
 import NotificationArea from "../NotificationArea";
@@ -46,9 +46,9 @@ const NavBarAuth = () => {
     ));
   };
   return (
-    <nav className="h-12 sticky top-0 flex justify-between bg-gradient-to-r from-main-green to-main-blue md:px-24 shadow-md z-50">
+    <nav className="h-16 items-center sticky top-0 flex justify-between bg-resik-secondary md:px-24 shadow-md z-50">
       <Link to="/">
-        <img src={Logo} alt="logo" className="h-10 mt-1 cursor-pointer " />
+        <img src={Logo} alt="logo" className="h-11 cursor-pointer " />
       </Link>
       <ul className="md:flex hidden items-center gap-10">{mapLinks()}</ul>
 
